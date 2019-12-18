@@ -1,4 +1,4 @@
-export default function(prefix = 'dark') {
+module.exports = function(prefix = 'dark') {
   return function({ addVariant, e }) {
     addVariant(prefix, ({ modifySelectors, separator }) => {
       modifySelectors(({ className }) => {
