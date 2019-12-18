@@ -1,6 +1,6 @@
-# Tailwindcss prefers dark mode
+# Tailwindcss DarkMode
 
-Tailwind CSS plugin that adds variants for [@media (prefers-color-scheme: dark)][2].
+Tailwind CSS plugin that adds variants for DarkMode.
 
 ## Installation
 
@@ -16,7 +16,7 @@ module.exports = {
 
   plugins: [
     // ...
-    require('tailwindcss-prefers-dark-mode')()
+    require('tailwindcss-darkmode')()
   ]
 };
 ```
