@@ -87,22 +87,6 @@ variants: {
 
 You can check the full list of default variants in [Tailwind default config file][1].
 
-## Use @apply to inline any existing utility classes in dark mode
-
-Just use `prefers-color-scheme` CSS media feature and apply Tailwind classes.
-
-```css
-.btn {
-  @apply font-bold py-2 px-4 rounded bg-red-500;
-}
-
-@media (prefers-color-scheme: dark) {
-  .btn {
-    @apply bg-gray-500;
-  }
-}
-```
-
 ## Customize class name prefix for variants
 
 `dark` is used as default prefix for variants generated. It´s possible to change `dark` for whatever you want, just pass any string as param. For example, with `prefers-dark`:
