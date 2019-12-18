@@ -5,7 +5,11 @@ Tailwind CSS plugin that adds variants for DarkMode.
 ## Installation
 
 ```
-npm install tailwindcss-prefers-dark-mode --save-dev
+# npm
+npm install @danestves/tailwindcss-darkmode --save-dev
+
+# yarn
+yarn add --dev @danestves/tailwindcss-darkmode
 ```
 
 Add the plugin to the `plugins` array in your `tailwind.config.js` file.
