@@ -2,6 +2,10 @@
 
 Tailwind CSS plugin that adds variants for DarkMode.
 
+![Downloads](https://img.shields.io/npm/dw/@danestves/tailwindcss-darkmode?style=for-the-badge)
+![License](https://img.shields.io/npm/l/@danestves/tailwindcss-darkmode?style=for-the-badge)
+![Build Travis](https://img.shields.io/travis/com/danestves/tailwindcss-darkmode?style=for-the-badge)
+
 ## Installation
 
 ```
@@ -26,6 +30,8 @@ module.exports = {
 ```
 
 ## Variants generated
+
+**Note:** _This variants are activated when the `html` or `body` has the class `dark-mode`_.
 
 - `dark`
 - `dark:hover`
