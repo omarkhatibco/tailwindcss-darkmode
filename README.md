@@ -2,9 +2,10 @@
 
 Tailwind CSS plugin that adds variants for DarkMode.
 
-![Downloads](https://img.shields.io/npm/dw/@danestves/tailwindcss-darkmode?style=for-the-badge)
-![License](https://img.shields.io/npm/l/@danestves/tailwindcss-darkmode?style=for-the-badge)
-![Build Travis](https://img.shields.io/travis/com/danestves/tailwindcss-darkmode?style=for-the-badge)
+[![Downloads](https://img.shields.io/npm/dw/@danestves/tailwindcss-darkmode?style=for-the-badge)](https://www.npmjs.com/package/@danestves/tailwindcss-darkmode)
+[![License](https://img.shields.io/npm/l/@danestves/tailwindcss-darkmode?style=for-the-badge)](https://es.wikipedia.org/wiki/Licencia_MIT)
+[![Travis Build](https://img.shields.io/travis/com/danestves/tailwindcss-darkmode?style=for-the-badge)](https://travis-ci.com/danestves/tailwindcss-darkmode)
+
 
 ## Installation
 
