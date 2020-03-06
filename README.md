@@ -32,7 +32,9 @@ module.exports = {
 
 ## Variants generated
 
-**Note:** _This variants are activated when the `html` or `body` has the class `dark-mode`_.
+**Note:** These variants can be activated when the `html` or `body` has the class `dark-mode`. 
+
+You can customize the default activator in the constructor for the plugin `require('tailwindcss-darkmode')('dark', 'dark-mode')`. The first parameter of the constructor is the prefix of `dark:hover` the second parameter is the class applied to the `html` or `body` tag. 
 
 - `dark`
 - `dark:hover`
